@@ -33,7 +33,7 @@ public class SolutionStringa {
 	        
 	        int sumOfLengths = aSize + bSize;
 	        System.out.println(sumOfLengths);
-	        if (A.compareTo(B) >= 0) {
+	        if (A.compareTo(B) > 0) {
 	        	System.out.println("Yes");
 	        } else {
 	        	System.out.println("No");
